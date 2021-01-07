@@ -1,5 +1,8 @@
 ## dbt 0.19.0 (Release TBD)
 
+### Fixes
+- Remove ellipses printed while parsing ([#2971](https://github.com/fishtown-analytics/dbt/issues/2971), [#2996](https://github.com/fishtown-analytics/dbt/pull/2996))
+
 ### Under the hood
 - Rewrite macro for snapshot_merge_sql to make compatible with other SQL dialects ([#3003](https://github.com/fishtown-analytics/dbt/pull/3003)
 - Rewrite logic in `snapshot_check_strategy()` to make compatible with other SQL dialects ([#3000](https://github.com/fishtown-analytics/dbt/pull/3000), [#3001](https://github.com/fishtown-analytics/dbt/pull/3001))
